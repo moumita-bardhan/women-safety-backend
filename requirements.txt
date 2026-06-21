@@ -1,0 +1,81 @@
+# ============================
+# Women Safety Project Packages
+# ============================
+
+# FastAPI backend
+fastapi
+
+# Server runner
+uvicorn[standard]
+
+# HTML/template support
+jinja2
+
+# Required for image/file upload using FormData
+python-multipart
+
+# Environment variable support for .env file
+python-dotenv
+
+# MySQL database support
+sqlalchemy
+pymysql
+
+# Image processing / CNN preparation
+pillow
+numpy
+
+#MySQL Connector (optional, can use SQLAlchemy instead)
+mysql-connector-python
+# Optional: for CNN model later
+# tensorflow
+
+# Optional: for OpenCV camera/image processing later
+# opencv-python
+
+
+# ============================
+# Installation Command
+# ============================
+# python -m pip install -r requirements.txt
+
+
+# ============================
+# VS Code Python Interpreter
+# ============================
+# Ctrl + Shift + P
+# Python: Select Interpreter
+
+
+# ============================
+# Run FastAPI Server
+# ============================
+# python -m uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+
+
+# ============================
+# Find Laptop IP Address
+# ============================
+# ipconfig
+
+
+# Example:
+# IPv4 Address. . . . . . . . . . . : 192.168.1.8
+
+
+# ============================
+# Open Receiver Page On Mobile
+# ============================
+# http://192.168.1.8:8000/receiver
+
+
+# ============================
+# Test Backend On Laptop
+# ============================
+# http://localhost:8000
+
+
+# ============================
+# Test Alerts API
+# ============================
+# http://localhost:8000/api/alerts

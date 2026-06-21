@@ -1,0 +1,16 @@
+curl --location 'http: //localhost:8000/api/sos' \
+--form 'user_name="Test User"' \
+--form 'latitude="       26.1445"' \
+--form 'longitude="      91.7362"' \
+--form 'triggered_by="   MANUAL_TEST"' \
+--form 'sms_status="     SENT"'
+
+
+
+
+
+
+
+
+
+curl --location 'http://192.168.1.5:8000/api/sos-alerts/104872F5'
